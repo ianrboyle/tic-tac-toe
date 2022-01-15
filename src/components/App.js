@@ -1,6 +1,11 @@
-import React from "react";
-import Game from "./components/Game";
+import React, { useState } from "react";
+import Game from "./Game";
+import { calculateWinner } from "../calculateWinner";
 
-const App = () => <Game />;
+function App() {
+
+  <Game />;
+  return;
+}
 
 export default App;
